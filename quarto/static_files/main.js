@@ -1,0 +1,12 @@
+$(document).ready(function(){
+	$(".button").hover(
+		function(){
+			$(this).removeClass('shadow')
+		},
+		function(){
+			$(this).addClass('shadow')
+		});
+	$(".button").click(function(){
+		$(this).addClass('mouseover');
+	})
+})
