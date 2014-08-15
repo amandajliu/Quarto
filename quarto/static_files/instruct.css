@@ -1,0 +1,17 @@
+h1,p, h2{
+	font-family: Lucida Sans Unicode, sans-serif;
+	color:#812902;
+}
+h1{
+	text-shadow:1px 1px 1.5px #666666;
+}
+h2{
+	text-shadow:0.5px 0.5px 0.75px #666666;
+}
+body{
+	background: url('bamboomirror.jpg');
+	-webkit-background-size: cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+}
