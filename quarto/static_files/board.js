@@ -172,7 +172,14 @@ $(document).ready(function pseudoturn(){
 	$('.piece.off[class!="selected"]').on("mouseleave",function(){
 			$(this).addClass('shadow')
 		});
-	
+	$(".dropdown").hover(
+		function(){
+			$('.sub_menu').removeClass('hidden')
+		},
+		function(){
+			$('.sub_menu').addClass('hidden')
+		}
+	);
 
 
 	$('.piece.off').on("click",function chosepiece(){
