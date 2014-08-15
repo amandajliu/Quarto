@@ -1,0 +1,97 @@
+<!-- Game board for dark pieces -->
+<html>
+<head>
+	<link rel="shortcut icon" href="/static_files/favicon.ico"/>
+	<link rel="stylesheet" type="text/css" href="/static_files/quartoboard2.css"/>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script type='text/javascript' src='/static_files/board.js'></script>
+
+	<title>Quarto</title>
+</head>
+<body>
+	<h1>quarto</h1>
+	<h3><span class="hidden" id="instruct">place the tile of your opponent's choosing on to the board, then</span> select a tile for your opponent to move.</h3>
+	<h1><span class="hidden" id="win">you win!</span></h1>
+<div class = "bigboard">
+	<div class="circleboard">
+		<div class="board">
+			<div class="row">
+				<div class="tile unoc" row="0" col="0"></div>
+
+				<div class="tile unoc" row="0" col="1"></div>
+					
+				<div class="tile unoc" row="0" col="2"></div>
+				<div class="tile unoc" row="0" col="3"></div>
+			</div>
+			<div class="row">
+				<div class="tile unoc" row="1" col="0"></div>
+				<div class="tile unoc" row="1" col="1"></div>
+				<div class="tile unoc" row="1" col="2"></div>
+				<div class="tile unoc" row="1" col="3"></div>
+			</div>
+			<div class="row">
+				<div class="tile unoc" row="2" col="0"></div>
+				<div class="tile unoc" row="2" col="1"></div>
+				<div class="tile unoc" row="2" col="2"></div>
+				<div class="tile unoc" row="2" col="3"></div>
+			</div>
+			<div class="row">
+				<div class="tile unoc" row="3" col="0"></div>
+				<div class="tile unoc" row="3" col="1"></div>
+				<div class="tile unoc" row="3" col="2"></div>
+				<div class="tile unoc" row="3" col="3"></div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="pieces">
+	<p><span class = "name1" id="p1">player 1's turn</span><span id="p2" class="name2 hidden">player 2's turn</span></p>
+
+	<div class="piece dark large rect hollow off"></div>
+	
+	<div class="piece dark small rect hollow off"></div>
+	
+	<div class="piece dark large circle hollow off"></div>
+	
+	<div class="piece dark small circle hollow off"></div>
+	
+	<div class="piece dark large rect full off"></div>
+	
+	<div class="piece dark small rect full off"></div>
+	
+	<div class="piece dark large circle full off"></div>
+	
+	<div class="piece dark small circle full off"></div>
+
+	<div class="piece white large rect hollow off"></div>
+
+	<div class="piece white small rect hollow off"></div>
+
+	<div class="piece white large circle hollow off"></div>
+
+	<div class="piece white small circle hollow off"></div>
+
+	<div class="piece white large rect full off"></div>
+
+	<div class="piece white small rect full off"></div>
+
+	<div class="piece white large circle full off"></div>
+
+	<div class="piece white small circle full off"></div>
+
+	<button id="nextturn">Next turn</button>
+</div>
+<b></b>
+<!-- <a href = "/play" class="restart">
+	<input type="button" value="Restart"/>
+</a>
+<a href = "/" class="home">
+	<input type="button" value="Back to home"/>
+</a> -->
+
+
+
+
+</body>
+</html>
