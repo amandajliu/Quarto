@@ -1,6 +1,6 @@
 Quarto
 =========
-A board game on Google App Engine
+quarto-game.appspot.com
 ----------
 ###Current Features
 * local multiplayer
