@@ -50,10 +50,10 @@ class Game(db.Model):
 	"""All the data for a game"""
 	player1 = db.UserProperty()
 	player2 = db.UserProperty()
-	board = db.StringProperty()
+	board = db.ListProperty()
 	move1 = db.BooleanProperty() #True if Player 1's turn. use for win func
 	movedPiece = db.StringProperty() #class of piece. may not need b/c previously selected
-	tile = db.StringProperty() #class of tile 00 01, etc
+	tile = db.StringProperty() #id of tile 00 01, etc
 	selectedPiece = db.StringProperty() #class of piece
 
 class GameFromRequest():
